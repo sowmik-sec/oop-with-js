@@ -8,6 +8,12 @@ class Person {
     this.name = name;
     this.email = email;
   }
+  changeName(name) {
+    this.name = name;
+  }
+  sendEmail(msg) {
+    console.log("Sending Email", msg);
+  }
 }
 const p1 = new Person("Ahsan", "ahsan@gmail.com");
 const p2 = new Person("Habib", "habib@gmail.com");
