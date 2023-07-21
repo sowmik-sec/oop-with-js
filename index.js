@@ -11,8 +11,8 @@ const s = new Student(
   75000
 );
 
-// console.log(p);
-// console.log(s);
-// console.log(t);
+console.log(p);
+console.log(s);
+console.log(t);
 
-s.print();
+// s.print();

@@ -1,29 +1,29 @@
+const _name = Symbol("name");
+const _email = Symbol("email");
 class Person {
-  static className = "Person";
-  static PI = 3.1416;
   constructor(name, email) {
-    this._name = name;
-    this._email = email;
+    this[_name] = name;
+    this[_email] = email;
   }
   get name() {
-    return this._name;
+    return this[_name];
   }
   get email() {
-    return this._email;
+    return this[_email];
   }
 
   set name(name) {
     if (name === "Ahsan") return;
-    this._name = name;
+    this[_name] = name;
   }
   set email(email) {
-    this._email = email;
+    this[_email] = email;
   }
   print() {
     console.log(this);
   }
   toString() {
-    return `Name: ${this._name}, Email: ${this._email}`;
+    return `Name: ${this[_name]}, Email: ${this[_email]}`;
   }
   static isValid(age) {
     return age >= 18;
