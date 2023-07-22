@@ -47,7 +47,8 @@ class Address {
     this[_postalCode] = value;
   }
   toString() {
-    return `RoadNo: ${this[_roadNo]},
+    return `ID: ${this[_id]},
+    RoadNo: ${this[_roadNo]},
                 City: ${this[_city]},
                 Region: ${this[_region]},
                 Country: ${this[_country]},
