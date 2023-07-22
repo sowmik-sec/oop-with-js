@@ -16,3 +16,5 @@ class Teacher extends Employee {
     return `${super.toString()}, Subject: ${this[_subject]}`;
   }
 }
+
+module.exports = Teacher;
