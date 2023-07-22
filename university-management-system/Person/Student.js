@@ -1,6 +1,6 @@
 const UniPerson = require("./UniPerson");
 
-const _studentID = Symbol(studentID);
+const _studentID = Symbol("studentID");
 const _guardian = Symbol("guardian");
 const _exams = Symbol("exams");
 const _fee = Symbol("fee");

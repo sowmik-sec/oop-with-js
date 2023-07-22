@@ -1,6 +1,6 @@
 const UniPerson = require("./UniPerson");
 
-const _employeeID = Symbol(employeeID);
+const _employeeID = Symbol("employeeID");
 const _salary = Symbol("salary");
 
 class Employee extends UniPerson {
