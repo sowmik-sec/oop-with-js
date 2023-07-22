@@ -34,3 +34,5 @@ class Person {
     return `${this[_id]} - ${this[_name]}`;
   }
 }
+
+module.exports = Person;
